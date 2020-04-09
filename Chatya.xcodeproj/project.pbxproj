@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689242C6243FC1240041E8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689242C5243FC1240041E8B7 /* AppDelegate.swift */; };
+		689242C8243FC1240041E8B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689242C7243FC1240041E8B7 /* SceneDelegate.swift */; };
+		689242CA243FC1240041E8B7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689242C9243FC1240041E8B7 /* MainVC.swift */; };
+		689242CF243FC1260041E8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689242CE243FC1260041E8B7 /* Assets.xcassets */; };
+		689242D2243FC1260041E8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689242D0243FC1260041E8B7 /* LaunchScreen.storyboard */; };
+		689242DC243FC33B0041E8B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689242DB243FC33B0041E8B7 /* MainView.swift */; };
+		C1EA1A405CF827338FC1D64F /* Pods_Chatya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970F0589C8EE4AD8863FDE34 /* Pods_Chatya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		622C17D7FD73C180F6AB9732 /* Pods-Chatya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatya.release.xcconfig"; path = "Target Support Files/Pods-Chatya/Pods-Chatya.release.xcconfig"; sourceTree = "<group>"; };
+		689242C2243FC1240041E8B7 /* Chatya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689242C5243FC1240041E8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		689242C7243FC1240041E8B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		689242C9243FC1240041E8B7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		689242CE243FC1260041E8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689242D1243FC1260041E8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689242D3243FC1260041E8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689242DB243FC33B0041E8B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		970F0589C8EE4AD8863FDE34 /* Pods_Chatya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F176CA64CE3A96EFF16FA9 /* Pods-Chatya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatya.debug.xcconfig"; path = "Target Support Files/Pods-Chatya/Pods-Chatya.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689242BF243FC1240041E8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EA1A405CF827338FC1D64F /* Pods_Chatya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527AB2FB0E3C36DF2531E7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				970F0589C8EE4AD8863FDE34 /* Pods_Chatya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689242B9243FC1240041E8B7 = {
+			isa = PBXGroup;
+			children = (
+				689242C4243FC1240041E8B7 /* Chatya */,
+				689242C3243FC1240041E8B7 /* Products */,
+				ED3EDFE748B0CC940AD1415A /* Pods */,
+				527AB2FB0E3C36DF2531E7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		689242C3243FC1240041E8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689242C2243FC1240041E8B7 /* Chatya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689242C4243FC1240041E8B7 /* Chatya */ = {
+			isa = PBXGroup;
+			children = (
+				689242DA243FC32E0041E8B7 /* View */,
+				689242D9243FC3230041E8B7 /* Controller */,
+				689242C5243FC1240041E8B7 /* AppDelegate.swift */,
+				689242C7243FC1240041E8B7 /* SceneDelegate.swift */,
+				689242CE243FC1260041E8B7 /* Assets.xcassets */,
+				689242D0243FC1260041E8B7 /* LaunchScreen.storyboard */,
+				689242D3243FC1260041E8B7 /* Info.plist */,
+			);
+			path = Chatya;
+			sourceTree = "<group>";
+		};
+		689242D9243FC3230041E8B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				689242C9243FC1240041E8B7 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		689242DA243FC32E0041E8B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				689242DB243FC33B0041E8B7 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED3EDFE748B0CC940AD1415A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2F176CA64CE3A96EFF16FA9 /* Pods-Chatya.debug.xcconfig */,
+				622C17D7FD73C180F6AB9732 /* Pods-Chatya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689242C1243FC1240041E8B7 /* Chatya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689242D6243FC1260041E8B7 /* Build configuration list for PBXNativeTarget "Chatya" */;
+			buildPhases = (
+				05815E258A6E9C517C414E0C /* [CP] Check Pods Manifest.lock */,
+				689242BE243FC1240041E8B7 /* Sources */,
+				689242BF243FC1240041E8B7 /* Frameworks */,
+				689242C0243FC1240041E8B7 /* Resources */,
+				A69FE17EC5081AF139C5E022 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatya;
+			productName = Chatya1;
+			productReference = 689242C2243FC1240041E8B7 /* Chatya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689242BA243FC1240041E8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = telekom;
+				TargetAttributes = {
+					689242C1243FC1240041E8B7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 689242BD243FC1240041E8B7 /* Build configuration list for PBXProject "Chatya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689242B9243FC1240041E8B7;
+			productRefGroup = 689242C3243FC1240041E8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689242C1243FC1240041E8B7 /* Chatya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689242C0243FC1240041E8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689242D2243FC1260041E8B7 /* LaunchScreen.storyboard in Resources */,
+				689242CF243FC1260041E8B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05815E258A6E9C517C414E0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69FE17EC5081AF139C5E022 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatya/Pods-Chatya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatya/Pods-Chatya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatya/Pods-Chatya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689242BE243FC1240041E8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689242CA243FC1240041E8B7 /* MainVC.swift in Sources */,
+				689242DC243FC33B0041E8B7 /* MainView.swift in Sources */,
+				689242C6243FC1240041E8B7 /* AppDelegate.swift in Sources */,
+				689242C8243FC1240041E8B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		689242D0243FC1260041E8B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689242D1243FC1260041E8B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689242D4243FC1260041E8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		689242D5243FC1260041E8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689242D7243FC1260041E8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F176CA64CE3A96EFF16FA9 /* Pods-Chatya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SXXT776LX;
+				INFOPLIST_FILE = Chatya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telekom.Chatya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689242D8243FC1260041E8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622C17D7FD73C180F6AB9732 /* Pods-Chatya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SXXT776LX;
+				INFOPLIST_FILE = Chatya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telekom.Chatya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689242BD243FC1240041E8B7 /* Build configuration list for PBXProject "Chatya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689242D4243FC1260041E8B7 /* Debug */,
+				689242D5243FC1260041E8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689242D6243FC1260041E8B7 /* Build configuration list for PBXNativeTarget "Chatya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689242D7243FC1260041E8B7 /* Debug */,
+				689242D8243FC1260041E8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689242BA243FC1240041E8B7 /* Project object */;
+}
