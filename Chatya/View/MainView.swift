@@ -23,10 +23,9 @@ class MainView: UIView {
     
     override func layoutSubviews() {
         makeConstraints()
-        
     }
     
-//MARK:- Define variables
+//MARK:- Define subviews
     
     lazy var backgroundImage: UIImageView = {
         let bgImage = UIImageView()
@@ -34,7 +33,7 @@ class MainView: UIView {
         return bgImage
     }()
     
-    lazy var logoImage:UIImageView = {
+    lazy var logoImage: UIImageView = {
         let logo = UIImageView()
         logo.translatesAutoresizingMaskIntoConstraints = false
         return logo
@@ -58,13 +57,13 @@ class MainView: UIView {
         return stackView
     }()
     
-    lazy fileprivate var registerButton: UIButton = {
+    lazy var registerButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
-    lazy fileprivate var loginButton: UIButton = {
+    lazy var loginButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -103,15 +102,17 @@ class MainView: UIView {
         registerButton.backgroundColor = #colorLiteral(red: 0.4470588235, green: 0.537254902, blue: 0.8549019608, alpha: 1)
         registerButton.layer.cornerRadius = 4.0
         registerButton.setTitle("Register", for: .normal)
+        registerButton.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5), for: .highlighted)
         registerButton.titleLabel?.font = UIFont(name: "HelveticaNeue-Bold", size: 13)
-        registerButton.titleLabel?.textAlignment = .center
-//      registerButton.contentMode = .scaleToFill
+        //registerButton.contentMode = .scaleToFill
         
         loginButton.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
         loginButton.layer.cornerRadius = 4.0
         loginButton.setTitle("Login", for: .normal)
+        loginButton.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5), for: .highlighted)
         loginButton.titleLabel?.font = UIFont(name: "HelveticaNeue-Bold", size: 13)
 //      loginButton.contentMode = .scaleToFill
+        
         buttonStackView.addArrangedSubview(registerButton)
         buttonStackView.addArrangedSubview(loginButton)
     }
@@ -153,7 +154,7 @@ class MainView: UIView {
     }
 }
 
-
-
-
-
+public extension UIButton {
+        
+    
+}
