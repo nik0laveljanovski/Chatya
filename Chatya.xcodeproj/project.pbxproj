@@ -15,6 +15,9 @@
 		689242DC243FC33B0041E8B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689242DB243FC33B0041E8B7 /* MainView.swift */; };
 		68B97FC8243FEEE80059FF95 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B97FC7243FEEE80059FF95 /* RegisterVC.swift */; };
 		68B97FCA243FEF0F0059FF95 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B97FC9243FEF0F0059FF95 /* RegisterView.swift */; };
+		68B97FCC2440EA8F0059FF95 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B97FCB2440EA8F0059FF95 /* CustomTextField.swift */; };
+		68B97FCE2440F23A0059FF95 /* CustomLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B97FCD2440F23A0059FF95 /* CustomLabelTextField.swift */; };
+		68B97FD02440F76D0059FF95 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B97FCF2440F76D0059FF95 /* CustomButton.swift */; };
 		C1EA1A405CF827338FC1D64F /* Pods_Chatya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970F0589C8EE4AD8863FDE34 /* Pods_Chatya.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		689242DB243FC33B0041E8B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		68B97FC7243FEEE80059FF95 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		68B97FC9243FEF0F0059FF95 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		68B97FCB2440EA8F0059FF95 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		68B97FCD2440F23A0059FF95 /* CustomLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelTextField.swift; sourceTree = "<group>"; };
+		68B97FCF2440F76D0059FF95 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		970F0589C8EE4AD8863FDE34 /* Pods_Chatya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F176CA64CE3A96EFF16FA9 /* Pods-Chatya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatya.debug.xcconfig"; path = "Target Support Files/Pods-Chatya/Pods-Chatya.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +106,9 @@
 			children = (
 				689242DB243FC33B0041E8B7 /* MainView.swift */,
 				68B97FC9243FEF0F0059FF95 /* RegisterView.swift */,
+				68B97FCB2440EA8F0059FF95 /* CustomTextField.swift */,
+				68B97FCD2440F23A0059FF95 /* CustomLabelTextField.swift */,
+				68B97FCF2440F76D0059FF95 /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B97FCC2440EA8F0059FF95 /* CustomTextField.swift in Sources */,
+				68B97FCE2440F23A0059FF95 /* CustomLabelTextField.swift in Sources */,
+				68B97FD02440F76D0059FF95 /* CustomButton.swift in Sources */,
 				689242CA243FC1240041E8B7 /* MainVC.swift in Sources */,
 				689242DC243FC33B0041E8B7 /* MainView.swift in Sources */,
 				689242C6243FC1240041E8B7 /* AppDelegate.swift in Sources */,

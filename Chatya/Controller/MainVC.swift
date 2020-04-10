@@ -24,11 +24,9 @@ class MainVC: UIViewController {
     
     @objc func registerButtonTapped(sender: UIButton) {
         let vc = RegisterVC()
-        self.navigationController?.pushViewController(vc, animated: true)
+        self.navigationController?.pushViewController(vc, animated: true)        
     }
     
-    @objc func backTapped(backButton: UIBarButtonItem) {
-        
-        
-    }
+    
+
 }
